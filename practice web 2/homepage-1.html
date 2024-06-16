@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="section-one.css">
+    <link rel="stylesheet" href="section-two.css">
+    <link rel="stylesheet" href="section-three.css">
+    <link rel="stylesheet" href="section-four.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">Arknights</div>
+        <div class="options">
+            <a href="#1st-section">
+                <button id="home-button">HOME</button></a>
+            <a href="#2nd-section">
+                <button id="operator-button">OPERATOR</button></a>
+            <a href="#3rd-section">
+                <button id="talos-button">TALOS-II</button></a>
+            <a href="#4th-section">
+                <button id="news-button">NEWS</button></a>
+            <a href="#5th-section">
+                <button id="media-button">MEDIA</button></a>
+        </div>
+        <div class="bgs"><button>ON</button></div>
+        <div class="border-header"></div>
+        <div class="login"><button>LOG IN</button></div>
+    </div>
+    <div class="Sections">
+        <section class="section-one" id="1st-section">
+            <div class="video">
+            <video autoplay loop muted src="raiden.mp4"></video>
+            </div>
+            <div class="signup"><button>SIGN UP</button></div>
+        </section>
+        <section class="section-two" id="2nd-section">
+            <img src="raiden.png">
+            <div class="overlay">
+                <div class="sidebar"></div>
+                <div class="title-overlay">Arknights</div>
+                <div class="sub-title">End</div>
+                <div class="sub-title" style="margin-top:60px">Field</div>
+                <div class="view">
+                    <button>VIEW</button>
+                </div>
+                <div class="description"><p>Arknights: Endfield is a real-time 3D RPG with strategic elements</p><p style="margin-top: 10px;"> by HYPERGRYPH.</p></div>
+            </div>
+        </section>
+        <section class="section-three" id="3rd-section">
+            <div class="profiles">
+                <div class="model">
+                    <div class="model-row">
+                        <div class="model-item" onclick="changeGallery(1)">
+                            <img src="models/raiden-model.png">
+                            <div class="subname">Example</div>
+                            <div class="cover"></div>
+                        </div>
+                        <div class="model-item" onclick="changeGallery(2)">
+                            <img src="models/raiden-model.png">
+                            <div class="subname">Example</div>
+                            <div class="cover"></div>
+                        </div>
+                        <div class="model-item" onclick="changeGallery(3)">
+                            <img src="models/raiden-model.png">
+                            <div class="subname">Example</div>
+                            <div class="cover"></div>
+                        </div>
+                        <div class="model-item" onclick="changeGallery(4)">
+                            <img src="models/raiden-model.png">
+                            <div class="subname">Example</div>
+                            <div class="cover"></div>
+                        </div>
+                        <div class="model-item" onclick="changeGallery(5)">
+                            <img src="models/raiden-model.png">
+                            <div class="subname">Example</div>
+                            <div class="cover"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <img id="gallery-img" src="models/raiden-model.png">
+                    <div class="description">Description of Image 1</div>
+                    <div class="description">Description of Image 2</div>
+                    <div class="description">Description of Image 3</div>  
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-four" id="4th-section">
+            <div class="container">
+            <div class="slide">
+
+                <div class="item" style="background-image: url(one-image-bg.jpg);">
+                    <div class="content">
+                        <div class="name-des">EXAMPLE</div>
+                        <div class="des">text text text text text text text</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(two-image-bg.jpg);">
+                    <div class="content">
+                        <div class="name-des">EXAMPLE</div>
+                        <div class="des">text text text text text text text</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(three-image-bg.png);">
+                    <div class="content">
+                        <div class="name-des">EXAMPLE</div>
+                        <div class="des">text text text text text text text</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(four-image-bg.jpg);">
+                    <div class="content">
+                        <div class="name-des">EXAMPLE</div>
+                        <div class="des">text text text text text text text</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(five-image-bg.jpg);">
+                    <div class="content">
+                        <div class="name-des">EXAMPLE</div>
+                        <div class="des">text text text text text text text</div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-4-button">
+                <button class="sec-4-button-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="sec-4-button-next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            </div>
+        </section>
+        <section class="section-five" id="5th-section">
+            <h1>5th page</h1>
+        </section>
+    </div>
+</body>
+<script src="header.js"></script>
+<script src="sec-3.js"></script>
+<script src="sec-4.js"></script>
+
+</html>

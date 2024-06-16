@@ -1,0 +1,89 @@
+.section-three{
+  background-color: black;
+}
+
+.model-item {
+  height: 200px;
+  width: 85px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 55%;
+  left: 53%;
+  cursor: pointer;
+}
+.model-row div{
+  overflow: hidden;
+}
+.model-row div:nth-child(2){
+  left: 61%;
+}
+.model-row div:nth-child(3){
+  left: 69%;
+}
+.model-row div:nth-child(4){
+  left: 77%;
+}
+.model-row div:nth-child(5){
+  left: 85%;
+}
+.model-item{
+}
+
+.model-item img {
+  position: absolute;
+  height: 600px;
+  width: 245px;
+  left: -45%;
+  transition: 1s ease;
+}
+
+.model-item .subname{
+  transform: rotate(90deg);
+  margin-top: 25px;
+  margin-left: -72px;
+  position: absolute;
+  z-index: 2;
+}
+
+.gallery img {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+/*Description*/
+.gallery div{
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 53%;
+  color: white;
+}
+.gallery div:nth-child(3){
+  top: 23%;
+  font-size: 10px;
+}
+.gallery div:nth-child(4){
+  top: 30%;
+}
+.cover {
+  position: absolute;
+  transform: translate(-68%, 0%);
+  width: 110%;
+  height: 110%;
+  opacity: 0.3;
+  z-index: 1;
+  background-color: red;
+}
+
+.model-item:hover img {
+  transform: translateX(-20px); /* Change image position on hover */
+}
+
+.model-item:hover .subname {
+  color: blue; /* Change text color on hover */
+}
+
+.model-item:hover .cover {
+  opacity: 0; /* Change opacity of cover on hover */
+}

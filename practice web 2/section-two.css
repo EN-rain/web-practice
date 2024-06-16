@@ -1,0 +1,62 @@
+.section-two {
+}
+
+* {
+    color: white;
+}
+
+.section-two:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27.4%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.sidebar {
+    background-color: black;
+    padding-left: px;
+    padding: auto;
+    opacity: 0.5;
+}
+.title-overlay {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 13px;
+}
+
+.sub-title {
+    position: absolute;
+    font-size: 80px;
+    top: 150px;
+    left: 40px;
+}
+.view button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+.description p{
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    font-size: 9px;
+    background-color: transparent;
+    white-space: nowrap;
+}

@@ -1,0 +1,64 @@
+
+html { scroll-behavior: smooth;
+}
+.header {
+    position: fixed;
+    background-color: rgb(79, 74, 218);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2.5vw; 
+    z-index: 100;
+    overflow: hidden;
+}
+
+.title {
+    color: white; 
+    position: absolute;
+    font-size: 2vw; 
+    pointer-events: none;
+    left: 50px;
+    top: 15px;
+}
+.options {
+    position: absolute;
+    left: 200px;
+    top: 35%;
+}
+.options button, .login button, .bgs button{
+    margin: auto 15px;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.options button:hover, .login button:hover, .bgs button:hover{
+    color: rgb(255, 0, 166);
+}
+.bgs {
+    position: absolute;
+    top: 30%;
+    left: 84%;
+}
+
+.login{
+    position: absolute;
+    cursor: pointer;
+    left: 88%;
+    top: -14%;    
+    padding: 30px 42px;
+    background-color: blueviolet;
+    white-space: nowrap;
+}
+.border-header {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-image: linear-gradient(90deg,#ff00f0 10%,#ff37a5 10% 23%,#9307ff 23% 100%);
+  }
+
+  html { 
+    scroll-behavior: smooth;
+  }
